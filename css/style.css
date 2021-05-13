@@ -1,0 +1,45 @@
+/****************************************Header***********************************/
+
+#menu > img {
+    width: 30px;
+    height: auto;
+}
+#links > a {
+    padding-left: 40px;
+    font-weight: bold;
+}
+#home{
+    color: black;
+}
+
+/*****************************************Hero-section*****************************/
+
+#hero-section {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width:768px) {
+    #hero-section {
+        height: 75vh;
+}
+}
+
+#sub-heading {
+    background-color: #00c586;
+
+}
+
+/****************************************info-section***********************************/
+
+#info-section {
+    background-color: #212529;
+}
+
+/****************************************footer***********************************/
+
+#footer {
+    background-color: black;
+}
